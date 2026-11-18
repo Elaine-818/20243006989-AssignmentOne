@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="section_names">
+        <item>@string/facilities</item>
+        <item>@string/events</item>
+        <item>@string/clubs</item>
+        <item>@string/support</item>
+    </string-array>
+</resources>
