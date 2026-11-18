@@ -21,6 +21,7 @@ public class DetailActivity extends Activity {
         String[] content = resources.getStringArray(R.array.string_array_content);
         String[] images = resources.getStringArray(R.array.string_array_images);
         String[] sections = resources.getStringArray(R.array.section_names);
+        // The home buttons and all four arrays use the same topic order.
         int topic = getIntent().getIntExtra(EXTRA_TOPIC, 0);
 
         ((TextView) findViewById(R.id.detail_section)).setText(sections[topic]);
